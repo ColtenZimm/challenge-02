@@ -2,6 +2,8 @@ body {
     background-color: white;
     background-position: center;
     background-image: url(../img/background.webp);
+    font-family: 'Times New Roman'; Times, serif;
+    
 
 }
 
@@ -54,4 +56,10 @@ p {
     background-size: cover;
     background-position: center;
     background-color: white;
+}
+.container2 {
+    display: flex;
+    justify-content: end;
+    flex-flow: column-reverse;
+    align-items: flex-end;
 }
